@@ -1,0 +1,131 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+/****Css For Mobiel**/
+
+
+
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #d7eaf4;
+    height: 1000px;
+}
+
+nav{
+    display: block;
+    width: 500px;
+}
+
+nav ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: block;
+    margin-bottom: 5px;
+}
+
+nav a{
+    display: inline;
+    padding: 0px;
+    border-radius: 6px;
+    background: #3b4fad;
+    width: 25%;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: blue;
+}
+
+/*** Beginning th medium size page**/
+
+@media screen and (min-width: 600px){
+
+    nav li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+
+
+
+/*** Beginning of
+
+
+
+@media screen and (min-width: 800px){
+    
+    .wrapper{
+        max-width: 1024px;
+    }
+
+    .featured_content{
+        width: 75%;
+        padding-right: 4%;
+        background-color: white;
+        height: 50%
+    }
+
+    .sidebar{
+        float: left;
+        width: 26%;
+    }
+
+    .footer{
+        clear: both;
+    }
+}
+
+.featured_content.pic1{
+    float: right;
+
+
+
+}
+.featured_content{
+    display: inline-block;
+    background-color: white;
+}
+
+.main_page{
+    display: inline-block;
+}
+
+
+
+.main_page.Cubism{
+    width: 50%:;
+    float: left;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.main_page.expressonism{
+    width: 50%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+

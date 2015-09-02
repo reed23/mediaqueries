@@ -1,0 +1,100 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+/***** GENERIC STYLES *************/
+/**********************************/
+
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+nav{
+    display: block;
+}
+
+nav ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: block;
+    margin-bottom: 5px;
+}
+
+nav a{
+    display: block;
+    padding: 15px 20px;
+    border-radius: 6px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: blue;
+}
+
+
+@media screen and (min-width: 600px){
+
+    nav li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+.featured_content.img{
+     float: left;
+
+
+}
+@media screen and (min-width: 800px){
+    
+    .wrapper{
+        max-width: 1024px;
+    }
+
+    .featured_content{
+        float: left;
+        width: 20%;
+        padding-right: 4%;
+    }
+
+    .sidebar{
+        float: left;
+        width: 26%;
+    }
+
+    footer{
+        clear: both;
+    }
+   
+   .featured_content img{
+         float: left;
+
+
+   }
+
+
+
+
+
+
+

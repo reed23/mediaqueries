@@ -1,0 +1,62 @@
+
+
+
+
+.wrapper{
+	width: 95%;
+	margin:  0 auto;
+}
+
+nav{
+ display: block;
+
+}
+
+nav ul{
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+ }
+
+
+ nav ul {
+    display: block;
+    padding; 15px 20px;
+    border-radius: 6px;
+
+    
+}
+
+ nav a{
+    display: block;
+    padding 15px 20px;
+    border-radius: 6px;
+    background: red;
+    color: white;
+
+   
+
+
+ }  
+
+
+ @media screen and (min-width: 600px){
+
+    .main_content{
+    	float: left;
+    	width; 70%;
+    }
+
+	.sidbar{
+
+   	}
+}
+
+
+
+
+
+
+
