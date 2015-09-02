@@ -23,8 +23,9 @@
     background-color: blue;
 }
 
-nav{
+.featured_navigation.a{
     display: block;
+    background-color: blue;
 }
 
 nav ul{
@@ -34,14 +35,14 @@ nav ul{
     list-style: none;
 }
 
-nav li{
+  .nav.li{
     display: block;
     margin-bottom: 5px;
 }
 
-nav a{
+.nav a{
     display: block;
-    padding: 15px 20px;
+    padding: 50px 100px;
     border-radius: 6px;
     background: blue;
     color: white;
@@ -63,8 +64,25 @@ nav a:hover{
 .featured_content.img{
      float: left;
 
+}
+.featured_content{
+     display: inline-block;
+     width: 100%;
+     background-color: blue;
 
 }
+
+.featured_navigation{
+  background-color: blue;
+}
+
+
+.cubism.image3{
+  max-width: 25px;
+  max-height: 25px;
+}
+
+
 @media screen and (min-width: 800px){
     
     .wrapper{
@@ -73,28 +91,43 @@ nav a:hover{
 
     .featured_content{
         float: left;
-        width: 20%;
+        width: 100%;
         padding-right: 4%;
+        max-height: 25px;
+        margin: 0 auto;
+
     }
+    
+
 
     .sidebar{
         float: left;
         width: 26%;
     }
 
-    footer{
-        clear: both;
-    }
+     
    
    .featured_content img{
          float: left;
 
 
    }
+    .featured_navigation{
+      display: block;
+      width: 100%;
+      background-color: green;
+    }
 
+    .nav {
+      color: blue;
 
+    }
+  .section.img{
 
-
+    
+  max-width: 25px;
+  max-height: 25px;
+}
 
 
 

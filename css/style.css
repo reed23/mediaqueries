@@ -14,7 +14,7 @@
   zoom: 1; /* ie 6/7 */
 }
 
-/****Css For Mobiel**/
+/****Css For Mobile**/
 
 
 
@@ -44,11 +44,10 @@ nav li{
 }
 
 nav a{
-    display: inline;
+    display: block;
     padding: 0px;
     border-radius: 6px;
     background: #3b4fad;
-    width: 25%;
     color: white;
     text-decoration: none;
 }
@@ -56,6 +55,37 @@ nav a{
 nav a:hover{
     background: blue;
 }
+ 
+ .art_history{
+    background-color: white;
+    padding: 10px;
+ }
+   .image2{
+    visibility: none;
+    display: none;
+   }
+
+.image3{
+    width: 100%
+
+}
+.Cubism{
+    height: auto;
+}
+.featured_content{
+    padding-bottom: 10px;
+}
+
+.footer{
+    background-color: purple;
+
+
+}
+.footer.h1{
+    border: 10px;
+}
+
+
 
 /*** Beginning th medium size page**/
 
@@ -69,7 +99,7 @@ nav a:hover{
 
 
 
-/*** Beginning of
+/*** Beginning of***/
 
 
 
@@ -77,6 +107,8 @@ nav a:hover{
     
     .wrapper{
         max-width: 1024px;
+        height: 100%;
+        padding: 10px;
     }
 
     .featured_content{
@@ -105,27 +137,77 @@ nav a:hover{
 .featured_content{
     display: inline-block;
     background-color: white;
+    width: 100%;
 }
 
 .main_page{
-    display: inline-block;
+    display: block;
 }
 
 
 
-.main_page.Cubism{
+    .Cubism{
     width: 50%:;
     float: left;
     padding: 20px;
-    display: inline-block;
+    display: block;
     vertical-align: top;
+    margin-right: 100px;
+    padding-right: 20px;
 }
 .main_page.expressonism{
     width: 50%;
     padding: 20px;
-    display: inline-block;
+    display: block;
     vertical-align: top;
 
 }
+.
+.cubism.img{
+    width: 50%
 
 
+}
+.featured_navigation{
+    display: block;
+}
+
+
+nav{
+    display: block;
+}
+
+nav ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: block;
+    margin-bottom: 5px;
+}
+
+nav a{
+    display: block;
+    padding: 0px;
+    border-radius: 6px;
+    background: #3b4fad;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: blue;
+}
+ .image4{
+    float: right;
+ }
+    .image3{
+        width: 25%;
+        float: right;
+    }
+   .image5{
+    float: left;
+   }

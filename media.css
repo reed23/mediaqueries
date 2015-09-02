@@ -40,6 +40,21 @@ nav ul{
 
 
  }  
+ .section.Art_History{
+    background-color: white;
+    width: 1000px;
+    height: 1000px;
+    display: inline-block;
+
+
+ }
+
+
+
+
+
+
+
 
 
  @media screen and (min-width: 600px){
@@ -53,6 +68,10 @@ nav ul{
 
    	}
 }
+  .section{
+    background-color: white;
+    width: 1000px;
+    height: 1000px;
 
 
 
